@@ -1,12 +1,12 @@
-import {Component, OnInit} from '@angular/core';
-import {ChartJSInterface} from "../../../src/chart-js-interfaces";
+import { Component, OnInit } from '@angular/core';
+import { ChartJSInterface } from '../../../src/chart-js-interfaces';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   public barChartData: ChartJSInterface = {
     type: 'bar',
     data: {
@@ -43,6 +43,7 @@ export class AppComponent implements OnInit {
       }
     }
   };
+
   public doughnutChartData: ChartJSInterface = {
     type: 'doughnut',
     data: {
@@ -107,10 +108,10 @@ export class AppComponent implements OnInit {
     data: {
       datasets: [{
         data: [
-          { x: 10, y: 10, r: 10 },
-          { x: 15, y: 5, r: 15 },
-          { x: 26, y: 12, r: 23 },
-          { x: 7, y: 8, r: 8 }
+          {x: 10, y: 10, r: 10},
+          {x: 15, y: 5, r: 15},
+          {x: 26, y: 12, r: 23},
+          {x: 7, y: 8, r: 8}
         ],
         label: 'Series A',
         backgroundColor: 'green',
@@ -119,10 +120,10 @@ export class AppComponent implements OnInit {
         hoverBorderColor: 'red'
       }, {
         data: [
-          { x: 20, y: 10, r: 10 },
-          { x: 12, y: 52, r: 15 },
-          { x: 21, y: 12, r: 23 },
-          { x: 10, y: 81, r: 28 }
+          {x: 20, y: 10, r: 10},
+          {x: 12, y: 52, r: 15},
+          {x: 21, y: 12, r: 23},
+          {x: 10, y: 81, r: 28}
         ],
         label: 'Series B',
         backgroundColor: 'blue',
@@ -138,35 +139,29 @@ export class AppComponent implements OnInit {
       labels: ['Eating', 'Drinking', 'Sleeping', 'Designing', 'Coding', 'Cycling', 'Running'],
       datasets: [{
         data: [
-          { x: 61, y: 15 },
-          { x: 32, y: 33 },
-          { x: 31, y: -2 },
-          { x: 14, y: 4 },
-          { x: 52, y: -3 },
+          {x: 61, y: 15},
+          {x: 32, y: 33},
+          {x: 31, y: -2},
+          {x: 14, y: 4},
+          {x: 52, y: -3}
         ],
         label: 'Series A',
         pointRadius: 10,
         backgroundColor: 'blue',
-        borderColor: 'blue',
+        borderColor: 'blue'
       }, {
         data: [
-          { x: 11, y: 21 },
-          { x: 21, y: 3 },
-          { x: 33, y: -12 },
-          { x: 14, y: 34 },
-          { x: 55, y: -23 },
+          {x: 11, y: 21},
+          {x: 21, y: 3},
+          {x: 33, y: -12},
+          {x: 14, y: 34},
+          {x: 55, y: -23}
         ],
         label: 'Series B',
         pointRadius: 10,
         backgroundColor: 'green',
-        borderColor: 'green',
+        borderColor: 'green'
       }]
     }
   };
-
-  constructor() {
-  }
-
-  ngOnInit() {
-  }
 }
