@@ -18,4 +18,4 @@ Check out the [reference documentation][reference] and the [live demo][example-p
 
 ## License
 
-[MIT](LICENSE.md)
+[ISC](LICENSE.md)

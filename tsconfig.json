@@ -16,6 +16,6 @@
   ],
   "files": [
     "./typings/index.d.ts",
-    "./ng2-google-charts.ts"
+    "./ng2-chart-js.ts"
   ]
 }
