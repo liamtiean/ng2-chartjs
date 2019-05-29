@@ -10,7 +10,7 @@
 ## Install
 
 ```bash
-npm i --save ng2-chartjs
+npm i --save chartjs-ng2-module
 ```
 
 ## Usage & Demo
