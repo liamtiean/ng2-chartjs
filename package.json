@@ -1,7 +1,7 @@
 {
-  "name": "ng2-chartjs",
-  "version": "0.0.0",
-  "description": "Angular2 ChartJS module",
+  "name": "chartjs-ng2-module",
+  "version": "0.0.1",
+  "description": "ChartJS module for Angular",
   "private": false,
   "scripts": {
     "demo.gh-pages": "run-s build demo.build demo.deploy",
@@ -16,7 +16,7 @@
     "build.watch": "ngm build -p src --watch --skip-bundles",
     "start": "ng serve --aot --port 4401"
   },
-  "main": "bundles/ng2-chartjs.umd.js",
+  "main": "bundles/chartjs-ng2-module.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "keywords": [
@@ -30,12 +30,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh@github.com:liamtiean/ng2-chartjs.git"
+    "url": "git+ssh@github.com:liamtiean/chartjs-ng2-module.git"
   },
   "bugs": {
-    "url": "https://github.com/liamtiean/ng2-chartjs/issues"
+    "url": "https://github.com/liamtiean/chartjs-ng2-module/issues"
   },
-  "homepage": "https://github.com/liamtiean/ng2-chartjs",
+  "homepage": "https://github.com/liamtiean/chartjs-ng2-module",
   "dependencies": {
     "@angular/common": "^7.2.1",
     "@angular/compiler": "^7.2.1",
