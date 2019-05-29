@@ -14,7 +14,7 @@
     "build": "npm run lint && npm run build.ngm && npm run link",
     "build.ngm": "ngm build -p src --clean",
     "build.watch": "ngm build -p src --watch --skip-bundles",
-    "start": "ng serve --aot"
+    "start": "ng serve --aot --port 4401"
   },
   "main": "bundles/ng2-chartjs.umd.js",
   "module": "index.js",
