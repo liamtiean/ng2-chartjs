@@ -1,6 +1,6 @@
 {
   "name": "chartjs-ng2-module",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "ChartJS module for Angular",
   "private": false,
   "scripts": {

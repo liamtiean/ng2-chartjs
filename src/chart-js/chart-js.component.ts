@@ -1,22 +1,26 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit } from '@angular/core';
+import {AfterViewInit, Component, ElementRef, Input, OnInit} from '@angular/core';
 import * as Chart from 'chart.js';
-import { ChartJSInterface } from '../chart-js-interfaces';
+import {ChartJSInterface} from '../chart-js-interfaces';
 
 @Component({
   selector: 'chartjs',
-  template: '<div width="400" height="400"><canvas></canvas></div>',
+  template: '<div><canvas></canvas></div>',
   styles: [`
     div {
-      display: inline-block;
+      width: 100%;
     }
   `]
 })
 
-export class ChartJsComponent implements AfterViewInit {
+export class ChartJsComponent implements OnInit, AfterViewInit {
   @Input() public data: ChartJSInterface;
+  @Input() public customStyles: any;
   private chart: Chart;
 
   constructor(private el: ElementRef) {
+  }
+
+  ngOnInit(): void {
   }
 
   public ngAfterViewInit() {
