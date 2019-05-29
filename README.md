@@ -1,4 +1,4 @@
-# ng2-chartjs
+# chartjs-ng2-module
 
 > Chartjs module for Angular 2 and beyond.
 
