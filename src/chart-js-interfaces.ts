@@ -1,6 +1,5 @@
-
 export interface ChartJSInterface {
-  type: string,
-  data: any,
-  options?: any,
+  type: string;
+  data: any;
+  options?: any;
 }

@@ -1,5 +1,5 @@
-import {NgModule} from '@angular/core';
-import {ChartJsComponent} from "./chart-js/chart-js.component";
+import { NgModule } from '@angular/core';
+import { ChartJsComponent } from './chart-js/chart-js.component';
 
 @NgModule({
   declarations: [
@@ -7,7 +7,7 @@ import {ChartJsComponent} from "./chart-js/chart-js.component";
   ],
   providers: [],
   exports: [
-    ChartJsComponent,
+    ChartJsComponent
   ]
 })
 export class Ng2ChartJsModules {
