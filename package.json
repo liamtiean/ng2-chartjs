@@ -2,7 +2,7 @@
   "name": "ng2-chartjs",
   "version": "0.0.0",
   "description": "Angular2 ChartJS module",
-  "private": true,
+  "private": false,
   "scripts": {
     "demo.gh-pages": "run-s build demo.build demo.deploy",
     "demo.ng-build": "ng build --prod --aot --preserve-symlinks -nc",
